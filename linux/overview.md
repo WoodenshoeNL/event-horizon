@@ -3,4 +3,4 @@
 
 ## OS maintenance
 
-[update Linux](/update_linux.md)
+[update Linux](/linux/update_linux.md)

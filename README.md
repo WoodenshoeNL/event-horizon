@@ -4,9 +4,9 @@
 
 ## Basic
 
-[Basic Linux](/linux/overview.md)
-[Basic Windows](/windows/overview.md)
-[Azure](/azure/Overview.md)
+* [Basic Linux](/linux/overview.md)
+* [Basic Windows](/windows/overview.md)
+* [Azure](/azure/Overview.md)
 
 
 ## Tools
