@@ -19,7 +19,7 @@ cd ~/Downloads
 unzip ghidra_*_PUBLIC_*.zip
 ```
 
-Go into the Ghidra directory and run ghidraRun
+Go into the Ghidra directory and run **ghidraRun**
 
 ```sh
 cd ghidra_*_PUBLIC
