@@ -1,5 +1,5 @@
 
 ## Ghidra
 
-* [Installing Ghidra](/installing_Ghidra.md)
-* 
+* [Installing Ghidra](/debuggers/installing_Ghidra.md)
+*
