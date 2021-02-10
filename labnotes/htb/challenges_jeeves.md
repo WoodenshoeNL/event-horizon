@@ -8,3 +8,11 @@ file jeeves.zip
 
 Open in Ghidra
 
+
+
+Create string on command line with Python
+
+```bash
+python -c "print('A' * 100)"
+```
+
