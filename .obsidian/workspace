@@ -6,6 +6,7 @@
       {
         "id": "a369c54750a8689d",
         "type": "leaf",
+        "active": true,
         "state": {
           "type": "markdown",
           "state": {
@@ -17,7 +18,6 @@
       {
         "id": "f3d6366292d57700",
         "type": "leaf",
-        "active": true,
         "state": {
           "type": "markdown",
           "state": {
@@ -80,7 +80,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linux/overview.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,7 +97,7 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "linux/overview.md",
-    "README.md"
+    "README.md",
+    "linux/overview.md"
   ]
 }
