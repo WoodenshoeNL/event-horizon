@@ -16,3 +16,5 @@ Create string on command line with Python
 python -c "print('A' * 100)"
 ```
 
+
+[Exploit with python script](/labnotes/htb/scripts/ch-jeeves.py)
