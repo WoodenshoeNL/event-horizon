@@ -14,5 +14,5 @@ r
 Dissamble a function
 
 ```bash
-dissam main
+disas main
 ```

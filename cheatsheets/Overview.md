@@ -27,3 +27,4 @@
 ## Debuggers
 
 * [GDB](https://gist.github.com/rkubik/b96c23bd8ed58333de37f2b8cd052c30)
+* [GDB 2](https://darkdust.net/files/GDB%20Cheat%20Sheet.pdf)
