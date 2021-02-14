@@ -11,7 +11,7 @@ Run program with the letter r
 r
 ```
 
-Dissamble a function
+Disassemble a function
 
 ```bash
 disas main
