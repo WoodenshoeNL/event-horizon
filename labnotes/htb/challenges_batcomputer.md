@@ -11,3 +11,13 @@ Check Security settings executable:
 checksec batcomputer
 ```
 
+Create cyclic string with:
+```bash
+from pwn import *
+cyclic(137)
+```
+
+Find offset with cyclic find:
+```bash
+cyclic_find('vaaa')
+```

