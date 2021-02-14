@@ -1,5 +1,6 @@
 
 Python pwn script for [batcomputer](/labnotes/htb/scripts/ch-batcomputer.py)
+Python remote pwn script for [batcomputer](/labnotes/htb/scripts/ch-batcomputer-remote.py)a
 
 Check file type:
 ```bash
