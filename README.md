@@ -15,6 +15,7 @@
 * [Blue Team Tools](/blue/overview.md)
 * [Debuggers](/debuggers/Overview.md)
 * [Sysadmin Tools](/sysadmin/Overview.md)
+* [Linux Tools offensive use](/offensive_linux/overview.md)
 
 
 ## Exploits
