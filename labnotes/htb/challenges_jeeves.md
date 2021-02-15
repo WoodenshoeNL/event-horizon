@@ -17,4 +17,4 @@ python -c "print('A' * 100)"
 ```
 
 
-[Exploit with python script](/labnotes/htb/scripts/ch-jeeves.py)
+[Exploit with python script](https://github.com/WoodenshoeNL/black-badge/blob/master/htb/challenges/ch-jeeves.py)
