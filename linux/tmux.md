@@ -1,5 +1,10 @@
 # Using TMUX
 
+TMUX Commands:
+* [Sessions](https://github.com/WoodenshoeNL/event-horizon/blob/main/linux/tmux.md#sessions)
+* [Windows](https://github.com/WoodenshoeNL/event-horizon/blob/main/linux/tmux.md#windows)
+* [Panes](https://github.com/WoodenshoeNL/event-horizon/blob/main/linux/tmux.md#panes)
+  
 ## Install TMUX
 
 ```bash
