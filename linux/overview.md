@@ -18,3 +18,4 @@
 * [RDP Client](/linux/rdp_client.md)
 * [SSH](/linux/ssh.md)
 * [TMUX](/linux/tmux.md)
+* [UFW Firewall](/linux/ufw_firewall.md)
