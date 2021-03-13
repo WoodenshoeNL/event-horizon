@@ -13,4 +13,5 @@
 * [Upgrading the Shell](/offensive_linux/upgrade_shell.md)
 * [Reverse Shell](/offensive_linux/reverse_shell.md)
 * [Python Webserver](/offensive_linux/python_webserver.md)
+* [Transfer file with NC](/offensive_linux/transfer_file_nc.md)
   
