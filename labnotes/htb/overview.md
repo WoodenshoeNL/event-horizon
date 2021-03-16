@@ -11,4 +11,4 @@
 * [batcomputer](/labnotes/htb/challenges_batcomputer.md)
 * [optimisitic](/labnotes/htb/challenges_optimistic.md)
 * [reg](/labnotes/htb/challenges_reg.md)
-
+* [htb-console](/labnotes/htb/challenges_htb-console.md)
