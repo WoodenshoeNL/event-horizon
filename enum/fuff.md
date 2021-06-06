@@ -29,6 +29,7 @@ ffuf -w /path/to/wordlist -u https://target/FUZZ
 ```
 
 -w    = wordlist
+
 -u    = target (FUZZ will be replaced by word from wordlist)
 
 ### HTB Parrot simple example
