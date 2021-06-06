@@ -8,6 +8,10 @@
 
 * [Add dir to Paths](/linux/add_path.md)
 
+## Software Settings
+
+* [Firefox](/linux/firefox.md)
+
 ## Install Software
 
 * [install VS Code](/linux/install_vs_code.md)
