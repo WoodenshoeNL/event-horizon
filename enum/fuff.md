@@ -95,33 +95,39 @@ ffuf -u http://10.10.10.48/FUZZ -w /usr/share/dirb/wordlists/big.txt -H "NAME1=V
 ffuf -u http://10.10.10.48/FUZZ -w /usr/share/dirb/wordlists/big.txt -X POST
 ```
 
-Use POST HTTP method with post data, fuzzing character in post data:
+### Use POST HTTP method with post data, fuzzing character in post data
+
+```bash
 ffuf -u http://10.10.10.153/moodle/login/index.php -w /home/htb-woodenshoe/htb/wordlist/SecLists/Fuzzing/special-chars.txt -X POST -H "Content-Type: application/x-www-form-urlencoded" -d 'anchor=&username=Giovanni&password=Th4C00lTheachaFUZZ' -mc all -v -fs 440
+```
 
+### Replay proxy -Run ffuf through a local proxy(burp)
 
-Replay proxy:
-Run ffuf through a local proxy(burp):
+```bash
 ffuf -u http://10.10.10.48/FUZZ -w /usr/share/dirb/wordlists/big.txt --replay-proxy http://127.0.0.1:8080
+```
 
+### Match status code 200
 
-
-Match status code 200:
+```bash
 ffuf -w /usr/share/dirb/wordlists/big.txt -mc 200 -u http://10.10.10.60/FUZZ
+```
 
+### Using a request file
 
+Save a request to a file in burp. Add the FUZZ keyword in the right location in the file
 
-
-Using a request file:
-save a request to a file in burp
-add the FUZZ keyword in the right location in the file
+```bash
 ffuf -w /usr/share/dirb/wordlists/big.txt -request /tmp/request.txt
+```
 
+### Wordlists mode
 
-Wordlists mode:
-by default ffuf runs in cluster bomb mode.
-running ffuf in pitch fork mode to match wordlists
+By default ffuf runs in cluster bomb mode. Running ffuf in pitch fork mode to match wordlists
 
+### Options
 
+```bash
 MATCHER OPTIONS:
   -mc              Match HTTP status codes, or "all" for everything. (default: 200,204,301,302,307,401,403)
   -ml              Match amount of lines in response
@@ -135,3 +141,4 @@ FILTER OPTIONS:
   -fr              Filter regexp
   -fs              Filter HTTP response size. Comma separated list of sizes and ranges
   -fw              Filter by amount of words in response. Comma separated list of word counts and ranges
+```
