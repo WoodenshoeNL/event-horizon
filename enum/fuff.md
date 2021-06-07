@@ -1,26 +1,11 @@
 # Fuff
 
-## Install Fuff
+Fuff:
 
-### Install with Apt-Get
+* [Using Fuff](https://github.com/WoodenshoeNL/event-horizon/blob/main/enum/fuff.md#using-fuff)
+* [Install Fuff](https://github.com/WoodenshoeNL/event-horizon/blob/main/enum/fuff.md#install-fuff)
 
-```bash
-sudo apt-get install ffuf
-```
-
-### Get Lastest, install from source with go
-
-```bash
-go get github.com/ffuf/ffuf
-```
-
-### Install Golang
-
-```bash
-sudo apt install golang
-```
-
-## Using Fuff
+## Using-Fuff
 
 ### Simple usage
 
@@ -141,4 +126,24 @@ FILTER OPTIONS:
   -fr              Filter regexp
   -fs              Filter HTTP response size. Comma separated list of sizes and ranges
   -fw              Filter by amount of words in response. Comma separated list of word counts and ranges
+```
+
+## Install-Fuff
+
+### Install with Apt-Get
+
+```bash
+sudo apt-get install ffuf
+```
+
+### Get Lastest, install from source with go
+
+```bash
+go get github.com/ffuf/ffuf
+```
+
+### Install Golang
+
+```bash
+sudo apt install golang
 ```
